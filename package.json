@@ -1,0 +1,28 @@
+{
+  "name": "maqe-hw",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.1",
+    "@types/node": "^20.12.12",
+    "axios": "^1.6.8",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.45",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.77.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}

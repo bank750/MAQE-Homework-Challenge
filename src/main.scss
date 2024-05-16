@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05px;
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: #e3dede;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #ffffff21;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #53bffd;
+  }
+}
+
+#app {
+  background-color: #eeeeee;
+}

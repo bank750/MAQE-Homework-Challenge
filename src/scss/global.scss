@@ -1,0 +1,26 @@
+.line-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  
+    &.--1 {
+      -webkit-line-clamp: 1;
+    }
+    &.--2 {
+      -webkit-line-clamp: 2;
+    }
+    &.--3 {
+      -webkit-line-clamp: 3;
+    }
+    &.--6 {
+        -webkit-line-clamp: 6;
+      }
+}
+.hover-zoom {
+    transition: 0.7s ease-out;
+    padding-bottom: 20px;
+}
+.hover-zoom:hover {
+    transform: scale(1.03) translateY(0px);
+    transition: 0.2s ease-in;
+}
